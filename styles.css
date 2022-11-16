@@ -1,0 +1,389 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  background-color: black;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 0.5rem 0;
+}
+
+.container-fluid {
+  padding: 1% 5% 1%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 3%;
+  width: 60%;
+}
+
+.nav-item {
+  padding: 0 25px 40% 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: black;
+  margin: 2px;
+}
+
+.navbar-toggler {
+  background-color: black;
+  opacity: .4;
+}
+
+.nav-link:hover {
+  font-weight: 500;
+  color: grey;
+}
+
+.navbar-nav {
+  vertical-align: top;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.logo_img {
+  opacity: 0.9;
+  width: 20%;
+  margin: 0 2%;
+}
+
+.tag_line {
+  font-family: "Dancing Script";
+  padding: 2% 0;
+  font-size: 150%;
+  text-align: left;
+}
+
+#title {
+  color: black;
+}
+
+.video_load {
+  position: absolute;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: -1;
+}
+
+
+.main_page_header {
+  font-size: 3.2rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  opacity: .5;
+  padding: 2% 7% 0 7%;
+}
+.peace_span {
+  font-size: 4.2rem;
+  color: white;
+  text-decoration: underline;
+  font-family: 'Dancing Script';
+
+}
+
+.main_page_text {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  opacity: .5;
+  padding: 1% 7% 10% 7%;
+}
+/* Feature Section */
+.logo_img2 {
+  width: 100%;
+  opacity: .4;
+  margin: 0 0 0 0;
+}
+
+#features {
+  color: white;
+  text-align: center;
+  padding: 5.15% 5% 0 5%;
+  margin: 2% 0 0 0;
+
+  position: relative;
+  z-index: -2;
+  background-color: #1A4D2E;
+}
+
+.feature_icons {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  opacity: .5;
+  padding-top: 5%;
+}
+
+.f_icon {
+  margin: 20% 0 0 0;
+  font-size: 5rem;
+  opacity: .5;
+}
+
+.feature_img {
+  width: 15%;
+  margin: 10% 0 0 0;
+  padding-top: 25%;
+  opacity: .5;
+}
+
+.p_feature {
+  font-size: 0.8rem;
+  font-family: "Montserrat";
+  opacity: .5;
+}
+
+
+
+/* Testimonials Section */
+/*
+#testimonials {
+  text-align: center;
+  background-color: none;
+
+}
+.testimonial_img {
+  width: 100%;
+
+
+}
+.carousel-item {
+  padding: 3% 0%;
+}
+ */
+/* Footer Section */
+#footer {
+  background-color: #647E68;
+  color: white;
+  text-align: center;
+  padding: 0 0 1% 0;
+
+  }
+
+.foot_icon {
+  color: white;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  margin: 2% 2% 0 0;
+}
+
+.copyright{
+  font-size: 0.8rem;
+  padding-top: 1%;
+}
+
+/* .g_map_img {
+  width: 1.5%;
+  padding-bottom: 0.2%;
+} */
+
+/* This section is used to determine the responsiveness of the webpage based on screen size */
+@media (max-width: 1580px) {
+  #features {
+    color: white;
+    text-align: center;
+    padding: 5.15% 5% 0 5%;
+    margin: -4% 0 0 0;
+
+    position: relative;
+    z-index: -2;
+    background-color: #1A4D2E;
+  }
+
+  .nav-item {
+    padding: 0 25px 30% 0;
+  }
+  .nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: grey;
+    margin: 0;
+    text-align: right;
+  }
+}
+
+/* This section is used to determine the responsiveness of the webpage based on screen size */
+@media (max-width: 1080px) {
+
+  .text_top {
+    background-color: black;
+    padding: 4% 0 4% 0;
+    margin: 4% 0 4% 0;
+    opacity: 0.6;
+  }
+
+  .main_page_header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    opacity: .8;
+    padding: 0 7% 0 7%;
+
+  }
+  .peace_span {
+    font-size: 1.5rem;
+  }
+
+  .main_page_text {
+    font-size: 1rem;
+    font-family: "Dancing Script";
+    font-weight: 600;
+    color: white;
+    opacity: .5;
+    padding: 1% 7% 0 7%;
+  }
+
+  #features {
+    color: white;
+    text-align: center;
+    padding: 5.15% 5% 0 5%;
+    margin: -2% 0 0 0;
+
+    position: relative;
+    z-index: -2;
+    background-color: #1A4D2E;
+  }
+
+  .nav-item {
+    padding: 0 25px 30% 0;
+  }
+  .nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: grey;
+    margin: 0;
+    text-align: right;
+  }
+}
+
+
+
+
+/* This section is used to determine the responsiveness of the webpage based on screen size */
+@media (max-width: 770px) {
+  #title {
+    color: black;
+
+  }
+
+  .logo_img {
+    opacity: 0.9;
+    width: 30%;
+    margin: 0 2%;
+    position: relative;
+    top: 0.5%;
+  }
+
+  .navbar-toggler {
+    margin-bottom: 10%;
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    z-index: 5;
+  }
+
+  .container-fluid {
+    padding: 1% 5% 1%;
+  }
+
+  .nav-item {
+    padding: 0 15px 0 0;
+  }
+
+  .nav-link {
+    font-size: 0.7rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: white;
+    text-align: right;
+  }
+
+  .nav-link:hover {
+    font-weight: 500;
+    color: grey;
+  }
+
+  .text_top {
+    background-color: black;
+    padding: 4% 0 4% 0;
+    margin: 4% 0 4% 0;
+    opacity: 1;
+  }
+
+  .main_page_header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    opacity: .8;
+    padding: 0 7% 0 7%;
+
+  }
+  .peace_span {
+    font-size: 1.5rem;
+  }
+
+  .main_page_text {
+    font-size: 0.9rem;
+    font-family: "Satisfy";
+    font-weight: 400;
+    color: white;
+    opacity: .6;
+    padding: 1% 7% 0 7%;
+  }
+
+  #features {
+    padding: 5% 5%;
+    margin:  -3% 0 0 0;
+    background-color: #261100f5;
+  }
+
+  .logo_img2 {
+    width: 70%;
+    opacity: .4;
+    margin: 0 0 0 0;
+  }
+
+  .feature_icons {
+    font-size: 0.8rem;
+    opacity: .8;
+    padding-top: 3%;
+  }
+
+  .feature_img {
+    width: 15%;
+    margin: 5% 0 0 0;
+    padding-top: 0;
+    opacity: .5;
+  }
+
+  .p_feature {
+    font-size: 0.6rem;
+    opacity: .5;
+  }
+
+  .foot_icon {
+    font-size: 1rem;
+  }
+  .copyright{
+    font-size: 0.6rem;
+  }
+}
