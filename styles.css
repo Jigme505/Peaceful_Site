@@ -222,7 +222,7 @@ video {
 
 
 /* This section is used to determine the responsiveness of the webpage based on screen size */
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
   #title {
     color: black;
 
