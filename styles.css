@@ -239,8 +239,8 @@ video {
   .navbar-toggler {
     margin-bottom: 10%;
     position: absolute;
-    left: 85%;
-    top: 20%;
+    left: 90%;
+    top: 50%;
     z-index: 5;
   }
 
